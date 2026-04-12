@@ -1,0 +1,81 @@
+/* General Reset */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background: #eee;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff6600;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Product Grid */
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#products h3 {
+    color: #ff6600;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #ccc;
+    padding: 15px;
+    margin-top: 30px;
+}
