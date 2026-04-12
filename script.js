@@ -56,4 +56,3 @@ if (footer) {
 window.addEventListener('load', () => {
     console.log('Welcome to Kelvin Tech Shop website!');
 });
-script.js
